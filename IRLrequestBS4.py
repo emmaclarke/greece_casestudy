@@ -1,8 +1,10 @@
 from bs4 import BeautifulSoup
 
+#works for UK, but not for IRL - 
+
 import requests
 
-url = "https://www.kildarestreet.com/debates/?id=2015-07-14a.65&s=Greece#g74"
+url = "https://www.kildarestreet.com/debates/?id=2015-07-01a.252&s=Greece#g348"
 req = requests.get(url)
 
 soup = BeautifulSoup(req.content)
@@ -15,10 +17,9 @@ soup = BeautifulSoup(req.content)
 #	if "http" in link.get("href"):
 #	print "<a href='%s'>%s</a>" %(link.get("href"), link.text) #gets all the hyperlinks & the text associated with them
 
-#general_data = soup.find_all("div", {"class": "debate-speech__content"})  #gives all of the 'debate-speech__content' in the context of UK
-general_data = soup.find_all("div", {"class": "main"})  #gives all of the 'main' in the context of IRL
+general_data = soup.find_all("p")  #gives all of the <p> in the context of IRL
 
-with open("/Users/default/Desktop/july15pilot/Greece/IRL_content/2015-07-14b.txt", mode = "w") as f:
+with open("/Users/default/Desktop/july15pilot/Greece/IRL_content/2015-07-01b.txt", mode = "w") as f:
 	for item in general_data:
 		f.write(item.text.encode("utf-8"))
 
