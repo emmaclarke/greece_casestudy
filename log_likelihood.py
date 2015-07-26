@@ -1,10 +1,12 @@
+# a number of different things in this code
+
 import nltk
 from nltk.collocations import *
 bigram_measures = nltk.collocations.BigramAssocMeasures()
-trigram_measures = nltk.collocations.TrigramAssocMeasures()
+#trigram_measures = nltk.collocations.TrigramAssocMeasures()
 
 #ngrams with 'greece' as a member
-greece_filter = lambda *w: 'greece' not in w
+#greece_filter = lambda *w: 'greece' not in w
 
 #bigrams
 finder = BigramCollocationFinder.from_words(nltk.corpus.genesis.words('/Users/default/Desktop/july15pilot/Greece/IRL_content/clean_irl.txt'))
