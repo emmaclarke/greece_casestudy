@@ -6,4 +6,4 @@ text = nltk.Text(nltk.word_tokenize(rawtext))
 freq = nltk.FreqDist(text)
 
 #print freq.freq('lord')
-freq.plot(50, cumulative=False)
+freq.plot(20, cumulative=False)

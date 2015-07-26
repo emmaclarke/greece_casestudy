@@ -1,4 +1,5 @@
 # a number of different things in this code
+# see http://www.nltk.org/howto/collocations.html for more info
 
 import nltk
 from nltk.collocations import *
