@@ -1,0 +1,12 @@
+Durkin, Philip. “Variation in the Lexicon: The ‘Cinderella’ of Sociolinguistics?.” English Today 28.04 (2012): 3–9. Cambridge Journals Online. Web. 19 Mar. 2015.
+
+Maier, Wolfgang, Carlos Gómez-Rodrıguez, and Depto de Computación. “Language Variety Identification in Spanish Tweets.” LT4CloseLang 2014 (2014): 24. Print.
+
+Volansky, Vered, Noam Ordan, and Shuly Wintner. “On the Features of Translationese.” Digital Scholarship in the Humanities 30.1 (2015): 98–118. dsh.oxfordjournals.org. Web. 29 June 2015.
+
+Zampieri, Marcos et al. “A Report on the DSL Shared Task 2014.” COLING 2014 (2014): 58. Print.
+
+
+While language identification is a relatively well-understood challenge in the field of Natural Language Processing (NLP), less work has been carried out on identification of varieties of a single language.
+Automatic national dialect identification tends to be problematic due to subtle differences between language varieties which make them more difficult to discern.
+Using custom compiled corpora of stenographic transcripts of parliamentary proceedings from Ireland and the United Kingdom, this study aims to carry out linguistic analysis which compares language varieties.

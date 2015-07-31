@@ -1,4 +1,4 @@
-infile = open("/Users/default/Desktop/july15pilot/Greece/IRL_content/clean_irl.txt")
+infile = open("/Users/default/Desktop/july15pilot/Greece/UK_content/clean_uk.txt")
 text = infile.read()
 infile.close()
 
@@ -22,7 +22,7 @@ def counter(list_to_search):
 
 #write the wordlist to a new text file - word and count separated by comma
 write_wordcount = counter(words)
-outfile = open("/Users/default/Desktop/july15pilot/Greece/IRL_content/clean_irl_word_LIST.csv", mode = 'w')
+outfile = open("/Users/default/Desktop/july15pilot/Greece/UK_content/clean_uk_word_LIST.csv", mode = 'w')
 
 for word, frequency in write_wordcount.items():
 	outfile.write(word + " , " + str(frequency) + '\n')
