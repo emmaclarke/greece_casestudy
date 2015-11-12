@@ -1,7 +1,7 @@
 import nltk
 from nltk.collocations import *
 
-raw_text = open('/Users/default/Dropbox/PhD/PhD_casestudies/GreeceJuly15/july15pilot2/Greece/IRL_content/clean_irl.txt').read().decode('utf-8').lower()
+raw_text = open('/Users/default/Dropbox/PhD/PhD case studies/GreeceJuly15/july15pilot2/Greece/IRL_content/clean_irl.txt').read().decode('utf-8').lower()
 
 tokens = nltk.word_tokenize(raw_text)
 
